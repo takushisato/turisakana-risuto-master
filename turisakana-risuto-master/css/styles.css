@@ -1,0 +1,38 @@
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.setumei {
+    margin: 0;
+}
+
+.ryouri-img {
+    max-width: 700px;
+    width: 95%;
+    height: auto;
+}
+
+/* あにめ */
+.js-animation {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
+}
+  
+.js-animation.is-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
